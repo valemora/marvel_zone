@@ -1,0 +1,68 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: burlywood;
+
+}
+
+header {
+    display: flex;
+    height: 80px;
+    background-color: rgb(226, 80, 80);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+div {
+    text-decoration: none;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 120px;
+    margin-right: 10px;
+}
+
+.texto {
+    font-size: 60px;
+}
+
+nav a:hover {
+    background: white;
+    transition: .5s;
+}
+
+a {
+    font-size: 20px;
+}
+
+p {
+    padding: 30px;
+    margin: 0px;
+}
+
+h2 {
+    padding: 30px;
+}
+
+h3 {
+    padding: 30px;
+}
+.heroes {
+    margin: 50px;
+}
