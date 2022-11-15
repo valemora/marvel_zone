@@ -5,22 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/a09dafbe35.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="/img3/ironicon.jpg" alt="Logo pagina">
-            <h2>Marvel - Zone</h2>
+    <nav class="nav">
+        <div class="nav__contenedor">
+            <h1 class="nav__logo">Marvel Zone</h1>
+            <label for="menu" class="nav__label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" id="menu" class="nav__input">
+
+            <div class="nav__menu">
+                <a href="./home.html" class="nav__item">Marvel</a>
+                <a href="./movies.html" class="nav__item">Peliculas</a>
+                <a href="./stone.html" class="nav__item">Gemas</a>
+            </div>
         </div>
-        <nav>
-            <a href="./index.html" class="nav-link">Inicio</a>
-            <a href="./gemas.html" class="nav-link">Gemas</a>
-            <a href="./heroes.html" class="nav-link">Heroes</a>
-            <a href="./marvel.html" class="nav-link">Que es</a>
-        </nav>
-    </header>
+    </nav>
 
     <h2>Peliculas</h2>
 
@@ -62,8 +65,5 @@
     <p>35: Ms. Marvel</p>
     <p>36: Thor: Love and Thunder</p>
     <p>37: Black Panther: Wakanda Forever</p>
-
-
-    
 </body>
 </html>
